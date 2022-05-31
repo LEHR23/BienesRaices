@@ -11,8 +11,8 @@
     }
 }
   
-@mixin desktop {
-    @media (min-width: #{$desktop}) {
+@mixin escritorio {
+    @media (min-width: #{$escritorio}) {
         @content;
     }
 }
